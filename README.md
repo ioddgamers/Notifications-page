@@ -1,6 +1,7 @@
 # Frontend Mentor - Notifications page
 
-![Design preview for the Notifications page coding challenge](./design/desktop-preview.jpg)
+![desktop-preview](https://github.com/ioddgamers/Notifications-page/assets/25953991/d5f44a38-57ce-4e0d-8d66-a54d438d03b9)
+
 
 ## Welcome! 👋
 
@@ -9,6 +10,10 @@ Thanks for checking out this front-end coding challenge.
 [Frontend Mentor](https://www.frontendmentor.io) challenges help you improve your coding skills by building realistic projects.
 
 **To do this challenge, you need a basic understanding of HTML, CSS and JavaScript.**
+
+## Desktop Design
+![desktop-design](https://github.com/ioddgamers/Notifications-page/assets/25953991/95c35a3c-abd9-413f-ac14-980b9082435a)
+
 
 ## The challenge
 
