@@ -28,11 +28,11 @@ body {
 }
 
 .parent-container {
-    border: 3px solid black;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding: 0 1rem;
 }
 
 
@@ -45,6 +45,7 @@ body {
     align-items: center;
     gap: 1rem;
     padding: 0 1rem;
+    margin: 2rem 0;
 }
 
 .notifications {
@@ -232,3 +233,18 @@ body {
 }
 
 /* User Notifications Section End */
+
+
+@media (min-width: 768px) {
+    body {
+        background-color: var(--Light-grayish-blue-2);
+    }
+    .parent-container {
+        width: 40rem;
+        height: auto;
+        margin: 3rem 0;
+        border-radius: 1rem;
+        background-color: white;
+        box-shadow: 5px 0px 15px 0px rgba(0,0,0,0.1);
+    }
+}
