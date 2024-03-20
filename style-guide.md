@@ -26,6 +26,8 @@ The designs were created to the following widths:
 - Dark grayish blue: hsl(219, 12%, 42%)
 - Very dark blue: hsl(224, 21%, 14%)
 
+
+
 ## Typography
 
 ### Body Copy
