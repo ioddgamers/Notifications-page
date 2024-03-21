@@ -45,7 +45,7 @@ body {
     align-items: center;
     gap: 1rem;
     padding: 0 1rem;
-    margin: 2rem 0;
+    margin: 1.5rem 0;
 }
 
 .notifications {
@@ -97,17 +97,24 @@ body {
     /* border: 2px solid black; */
 }
 
+
+
 .image {
     width: 2.5rem;
 }
 
-.notif-content-1,
-.notif-content-2,
-.notif-content-3 {
+.unread{
     background-color: hsla(217, 100%, 95%, 0.458);
     height: 5rem;
 }
 
+#message-read {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    height: 5rem;
+    font-size: 0.8rem;
+}
 /* ---Timestamp--- */
 .timestamp {
     font-size: 0.7rem !important;
@@ -115,46 +122,60 @@ body {
     margin-top: 0.1rem;
 }
 
+/* Red notification */
+
+/* #red-notif {
+    width: 0.4rem;
+    height: 0.4rem;
+    border-radius: 50%;
+    background-color: var(--Red);
+} */
+
+.unread p:first-of-type:after{
+    content: "";
+    background-color: var(--Red);
+    width: 8px;
+    height: 8px;
+    display: inline-block;
+    border-radius: 50%;
+    margin-left: 0.5rem;
+}
+
 /* Mark Webber */
-.notif-content-1 p{
+.unread p{
     font-size: 0.8rem;
     font-weight: 500;
     color: var(--Dark-grayish-blue);
 }
-.notif-content-1 p strong{
+.unread p strong{
     color: var(--Very-dark-blue);
 }
 
-.notif-content-1 p span{
+.unread p span{
     font-weight: 800;
 }
 
 /* Angela Gray */
-.notif-content-1,
-.notif-content-2,
-.notif-content-3 {
+.unread{
     display: flex;
     position: relative;
     justify-content: flex-start;
     align-items: center;
 }
 
-.notif-content-2 p,
-.notif-content-3 p {
+.unread p {
     font-size: 0.8rem;
     color: var(--Dark-grayish-blue);
 }
 
-.notif-content-2 p strong,
-.notif-content-3 p strong,
+.unread p strong,
 .user-rizky .content p strong,
 .user-kim p strong {
     color: var(--Very-dark-blue);
 }
 
 /* Jacob Thompson */
-.notif-content-3 p span,
-.notif-content-7 p span {
+.link {
     font-weight: 800;
     color: var(--Blue);
 }
@@ -162,9 +183,9 @@ body {
 
 
 /* Rizky Hasanuddin */
-.notif-content-4 {
+.in-message {
     display: flex;
-    align-items: flex-start;
+    align-items: flex-start !important;
     justify-content: center;
 }
 
@@ -193,7 +214,7 @@ body {
 }
 
 /* Kimberly Smith */
-.notif-content-5 {
+.read {
     display: flex;
     align-items: center;
     justify-content: flex-start;
@@ -206,12 +227,6 @@ body {
 }
 
 /* Nathan Peterson/Anna Kim */
-.notif-content-6,
-.notif-content-7 {
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-}
 
 .content {
     display: flex;
@@ -232,6 +247,14 @@ body {
     font-weight: 800;
 }
 
+/* Attribution */
+.attribution {
+    font-size: 0.7rem;
+    font-weight: 500;
+    color: var(--Blue);
+    margin: 1rem 0;
+}
+
 /* User Notifications Section End */
 
 
@@ -245,6 +268,7 @@ body {
         margin: 3rem 0;
         border-radius: 1rem;
         background-color: white;
-        box-shadow: 5px 0px 15px 0px rgba(0,0,0,0.1);
+        box-shadow: 5px 0px 56px -17px rgba(0,0,0,0.1);
     }
+
 }
