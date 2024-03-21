@@ -29,34 +29,38 @@
       <!-- User Notifications Section Start -->
       <section class="user-notifications">
         <!-- Mark Webber -->
-        <div class="notif-content-1 notif-container">
+        <div class="unread notif-container" >
           <img src="./assets/images/avatar-mark-webber.webp" alt="Mark Webber" class="image">
           <div>
-            <p><strong>Mark Webber</strong> reacted to your recent post <span>My first tournament today!</span></p>
+            <p><strong>Mark Webber</strong> reacted to your recent post <span class="link">My first tournament today!</span></p>
+            <div id="red-notif"></div>
             <p class="timestamp">1m ago</p>
+            
           </div>
           
         </div>
         <!-- Angela Gray -->
-        <div class="notif-content-2 notif-container">
+        <div class="unread notif-container">
           <img src="./assets/images/avatar-angela-gray.webp" alt="Angela Gray" class="image">
           <div class="information">
             <p><strong>Angela Gray</strong> followed you</p>
+            <div id="red-notif"></div>
             <p class="timestamp">5m ago</p>
           </div>
         </div>
 
         <!-- Jacob Thompson -->
-        <div class="notif-content-3 notif-container">
+        <div class="unread notif-container">
           <img src="./assets/images/avatar-jacob-thompson.webp" alt="Jacob Thompson" class="image">
           <div class="information">
-            <p><strong>Jacob Thompson </strong>has joined your group <span>Chess Club</span> </p>
+            <p><strong>Jacob Thompson </strong>has joined your group <span class="link">Chess Club</span> </p>
+              <div id="red-notif"></div>
             <p class="timestamp">1 day ago</p>
           </div>
         </div>
 
         <!-- Rizky Hasanuddin -->
-        <div class="notif-content-4 notif-container">
+        <div class="read in-message notif-container">
           <img src="./assets/images/avatar-rizky-hasanuddin.webp" alt="Rizky Hasanuddin" class="image">
 
           <div class="user-rizky">
@@ -73,7 +77,7 @@
         </div>
 
         <!-- Kimberly Smith -->
-        <div class="notif-content-5 notif-container">
+        <div class="read notif-container">
           <img src="./assets/images/avatar-kimberly-smith.webp" alt="Kimberly Smith" class="image">
         <div class="user-kim">
           <p><strong>Kimberly Smith </strong>commented on your picture</p>
@@ -83,7 +87,7 @@
         </div>
 
         <!-- Nathan Peterson -->
-        <div class="notif-content-6 notif-container">
+        <div class="read notif-container">
           <img src="./assets/images/avatar-nathan-peterson.webp" alt="Nathan Peterson" class="image">
           <div class="content">
             <p><strong> Nathan Peterson</strong> reacted to your recent post <span>5 end-game strategies to increase your win rate</span></p>
@@ -92,10 +96,10 @@
         </div>
 
         <!-- Anna Kim -->
-        <div class="notif-content-7 notif-container">
+        <div class="read notif-container">
           <img src="./assets/images/avatar-anna-kim.webp" alt="Anna Kim" class="image">
           <div class="content">
-            <p><strong>Anna Kim</strong> left the group <span class="chess-club">Chess Club</span></p>
+            <p><strong>Anna Kim</strong> left the group <span class="link">Chess Club</span></p>
             <p class="timestamp">2 weeks ago</p>
           </div>
         </div>
@@ -108,5 +112,7 @@
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
     Coded by <a href="https://github.com/ioddgamers">Adegbamigbe Tolulope</a>.
   </div>
+
+  <script src="script.js"></script>
 </body>
 </html>
