@@ -79,6 +79,11 @@ body {
     font-weight: 800;
     color: var(--Dark-grayish-blue);
 }
+
+.mark-as-read:hover {
+    color: var(--Blue);
+    cursor: pointer;
+}
 /* ---notif-bar-end--- */
 
 /* User Notifications Section Start */
@@ -108,13 +113,18 @@ body {
     height: 5rem;
 }
 
-#message-read {
+.message-read {
     display: flex;
     align-items: center;
     justify-content: flex-start;
     height: 5rem;
     font-size: 0.8rem;
 }
+
+.hidden {
+    display: none;
+}
+
 /* ---Timestamp--- */
 .timestamp {
     font-size: 0.7rem !important;
@@ -139,6 +149,14 @@ body {
     display: inline-block;
     border-radius: 50%;
     margin-left: 0.5rem;
+}
+
+p strong:hover,
+.content p strong:hover, 
+.user-kim p strong:hover,
+.user-rizky .content p strong:hover{
+    cursor: pointer;
+    color: var(--Blue);
 }
 
 /* Mark Webber */
@@ -178,6 +196,11 @@ body {
 .link {
     font-weight: 800;
     color: var(--Blue);
+    
+}
+
+.link:hover {
+    cursor: pointer;
 }
 
 
@@ -211,6 +234,11 @@ body {
     color: var(--Dark-grayish-blue);
     min-width: 13.5rem;
     align-self: flex-end;
+}
+
+.message-container:hover {
+    cursor: pointer;
+    background-color: var(--Light-grayish-blue-2);
 }
 
 /* Kimberly Smith */
